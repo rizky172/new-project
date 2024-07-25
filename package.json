@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite build --mode dev",
+        "build": "vite build",
+        "watch": "vite build --watch",
+        "reinstall-wecomp": "npm uninstall wevelope-vue-components && npm install git+https://wevelope:tQHype4-98WfTZaLK4Wk@gitlab.com/johanessurya/wevelope-vue-components.git#dev"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.2",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "vite": "^4.0.0",
+        "vue-template-compiler": "^2.7.14"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-basic-styles": "^36.0.1",
+        "@ckeditor/ckeditor5-editor-classic": "^36.0.1",
+        "@ckeditor/ckeditor5-essentials": "^36.0.1",
+        "@ckeditor/ckeditor5-heading": "^36.0.1",
+        "@ckeditor/ckeditor5-source-editing": "^36.0.1",
+        "@ckeditor/ckeditor5-vue2": "^3.0.1",
+        "@ckeditor/vite-plugin-ckeditor5": "^0.1.1",
+        "@vitejs/plugin-vue2": "^2.2.0",
+        "admin-lte": "3.0.1",
+        "js-abbreviation-number": "^1.4.0",
+        "vite-plugin-static-copy": "^0.13.0",
+        "vue": "^2.6.10",
+        "vue-chartjs": "^3.5.1",
+        "vue-cookie": "^1.1.4",
+        "vue-currency-filter": "^3.4.3",
+        "vue-numeral-filter": "^1.1.1",
+        "vue-router": "^3.1.3",
+        "vuex": "^3.1.2",
+        "wevelope-vue-components": "git+https://wevelope:tQHype4-98WfTZaLK4Wk@gitlab.com/johanessurya/wevelope-vue-components.git#dev"
+    }
+}

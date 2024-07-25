@@ -1,0 +1,132 @@
+body{overflow-x:hidden}
+body.right-sidebar-active{overflow:hidden}
+/* Right Sidebar */
+.right-sidebar-layer{background:rgba(0,0,0,0.6); display:none; height:100%; position:fixed; top:0; width:100%; z-index:99999}
+.right-sidebar{background:#343A40; height:100%; position:fixed; right:-300px; padding:30px 15px 30px 20px; top:0; transition: all 0.5s ease; width: 300px; z-index:9999999}
+.right-sidebar.active{right:0; }
+.right-sidebar h3{color:#fff; border-bottom:1px solid #ccc; font-size:20px; margin:0 0 15px; padding:0 0 15px; position:relative;}
+.right-sidebar button.right-sidebar-toggle{background:transparent; border:0; color:#fff; position:absolute; right:0; top:0;}
+.right-sidebar button.right-sidebar-toggle:focus{outline:0}
+.right-sidebar .sidebar-content{height:100%; padding:0 15px 0 0; overflow-y:scroll; overflow-x:hidden; scrollbar-width: none!important;}
+.right-sidebar .sidebar-content::-webkit-scrollbar {width:5px;}
+.right-sidebar .sidebar-content::-webkit-scrollbar-track {box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);}
+.right-sidebar .sidebar-content::-webkit-scrollbar-thumb {background-color: darkgrey; outline: 1px solid slategrey;}
+.right-sidebar label{color:#fff}
+a.page-link:hover,
+label[for]:hover{cursor: pointer;}
+/* Select2 z-index control*/
+.select2-container.select2-container--default.select2-container--open{z-index: 99999 !important;}
+/* Table in Table */
+tr.inner-table > td:first-child {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: grey;
+}
+
+tr.inner-table > td:first-child > table {
+    margin-bottom: 0px !important;
+    background-color: #fff !important;
+}
+
+/* Tree View */
+ul.we-treeview {
+    list-style: none;
+    margin: 10px 0px 0px 0px;
+    overflow: auto;
+    padding: 0px 0px 10px 10px;
+
+    border-left: 1px dashed gray;
+}
+
+ul.we-treeview li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul.we-treeview li:last-child {
+    margin-bottom: 0px;
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+/* Change to AdminLTE v2 Style */
+body, .form-control, .input-group-text, .btn {
+    font-size: 14px;
+}
+
+.table td, .table th{
+    padding: 8px;
+}
+
+.daterangepicker {
+    z-index: 99999999 !important;
+}
+
+/* Hide calendar section using css */
+.wevelope-timepicker .calendar-table { display: none; }
+
+/*sidebar scroll*/
+.sidebar::-webkit-scrollbar {
+    width: 7px;               /* width of the entire scrollbar */
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: grey;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid black;  /* creates padding around scroll thumb */
+}
+
+.col-price {
+    width: 150px;
+}
+
+.col-date {
+    width: 100px;
+}
+
+/** Make body not scrollable when sidebar open **/
+body.sidebar-open {
+    overflow: hidden;
+}
+
+/** Add padding bottom. Makes logout more easy accessable for iphone **/
+.sidebar {
+    padding-bottom: 100px;
+}
+
+/** Brand Logo, Center, Nav Left **/
+.brand-link{background:#fff; float:left; text-align:center}
+.brand-link .brand-image{box-shadow:none!important; border-radius:0!important; opacity:1!important; max-height: none; float:none; width:50%}
+.brand-link .brand-text{display:none}
+body.sidebar-collapse .search-box {display:none!important}
+body.sidebar-collapse .user-panel.hide-sidebar-collapse{display:none!important}
+.sidebar nav{padding:0 0 200px}
+
+/** QR Code **/
+#qrcode {
+    text-align: center;
+    background: white;
+    padding: 10px;
+}
+
+#qrcode img {
+    display: inline !important;
+}
+
+.callout.top-notif a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+.col-w-100 {
+    width: 100px;
+}
+
+.col-w-200 {
+    width: 200px;
+}
+
+button {
+	margin-left: calc(1rem * .25) !important;
+}

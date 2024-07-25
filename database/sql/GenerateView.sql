@@ -1,0 +1,2 @@
+-- Create history transaction view
+

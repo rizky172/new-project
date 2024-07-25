@@ -1,0 +1,23 @@
+{
+    "name": "tcgloots",
+    "description": "",
+    "main": "",
+    "authors": [
+        "Mauludin <mauludin.artuji@gmail.com>"
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "public/bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "underscore": "^1.9.1",
+        "jasmine-core": "^3.5.0",
+        "qrcode.js": "https://github.com/davidshimjs/qrcodejs/zipball/master"
+    }
+}

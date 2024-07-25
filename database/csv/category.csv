@@ -1,0 +1,16 @@
+ID,PARENT_ID,NAME,LABEL,NOTES,GROUP_BY,IS_DELETED,IS_DISABLED
+1,,user-activity,User Activity,Aktivitas User,log,0,0
+501,,full_access,full_access,Full Akses,permission_group,0,0
+1001,,admin_create,admin_create,Admin - Buat,permission,0,0
+1002,,admin_read,admin_read,Admin - Lihat,permission,0,0
+1003,,admin_delete,admin_delete,Admin - Hapus,permission,0,0
+1004,,admin_access_control_create,admin_access_control_create,Admin - Tab Hak Akses,permission,0,0
+1005,,admin_full_access,admin_full_access,Admin - Full Akses,permission,0,0
+1006,,access_create,access_create,Hak Akses - Buat,permission,0,0
+1007,,access_read,access_read,Hak Akses - Lihat,permission,0,0
+1008,,access_delete,access_delete,Hak Akses - Hapus,permission,0,0
+1009,,setting_create,setting_create,Pengaturan - Buat,permission,0,0
+1010,,setting_read,setting_read,Pengaturan - Lihat,permission,0,0
+1011,,setting_delete,setting_delete,Pengaturan - Hapus,permission,0,0
+1012,,list_category_read,list_category_read,List Kategori - Lihat,permission,0,0
+3000,,__delimiter_3,DELIMITER,Supaya data baru akan masuk ke 3001,DELIMITER,0,0
